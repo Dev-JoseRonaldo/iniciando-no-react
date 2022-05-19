@@ -1,6 +1,6 @@
 type Props = {
-  nome?: string; 
-  sobrenome?: string; 
+  nome: string; 
+  sobrenome: string; 
   idade?: number;
   tecnologia : 'ReactJS' | 'NodeJS';  
 }
