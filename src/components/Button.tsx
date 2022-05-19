@@ -1,6 +1,8 @@
+import React from 'react';
+
 type Props ={
   text:string;
-  funcao:any;
+  funcao:React.MouseEventHandler<HTMLButtonElement>;
 
 }
 export const Button = ({text,funcao}: Props) => {

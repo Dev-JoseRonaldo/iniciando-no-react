@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Header } from './components/Header';
 import { Figure } from './components/Figure';
 import { Contador } from './components/Contador';
+import { Input } from './components/Input';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
      />
 
      <Contador/>
+     <hr />
+
+     <Input />
+     <hr />
     </div>
   )
 }
