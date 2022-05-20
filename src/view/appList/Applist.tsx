@@ -1,4 +1,4 @@
-import { List } from "./components/applist/List";
+import { List } from "../list/List";
 function Applist() {
 
   let list = [
