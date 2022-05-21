@@ -17,9 +17,9 @@ const Home: React.FC = () => {
       <Link url='http://localhost:3000/condicionais' texto='Condicionais'/>
 
       <Header 
-      nome="José" 
-      sobrenome="Ronaldo" 
-      idade={23} 
+      nome="Bigodudo" 
+      sobrenome="Hackton" 
+      idade={45} 
       tecnologia="ReactJS"
       />
  
