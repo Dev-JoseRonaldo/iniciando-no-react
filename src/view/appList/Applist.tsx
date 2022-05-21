@@ -1,6 +1,7 @@
-import { List } from "../list/List";
-function Applist() {
+import { List } from "../../components/List";
+import { Link } from '../../components/Link';
 
+function Applist() {
   let list = [
     'luis',
     'ronaldo',
@@ -22,6 +23,7 @@ function Applist() {
 
   return (
     <div>
+      <Link url='http://localhost:3000/' texto='Home'/>
       <h2>Lista de Presença</h2>
       <ul>
         {list.map((item,index) =>(

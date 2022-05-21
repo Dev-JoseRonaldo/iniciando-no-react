@@ -4,7 +4,10 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import Home from "./view/Home";
 import Contato from "./view/Contato";
+import Applist from "./view/appList/Applist";
+import Condicionais from "./view/condicionais/Condicionais";
 import Err from "./view/err";
+
 
 const Router: React.FC = () => {
 
@@ -14,6 +17,8 @@ const Router: React.FC = () => {
         <Route path="*" element={<Err />}/>
         <Route path="/" element={<Home />}/>
         <Route path="/contato" element={<Contato />}/>
+        <Route path="/lista" element={<Applist />}/>
+        <Route path="/condicionais" element={<Condicionais />}/>
       </Routes>
     </BrowserRouter>
   );
