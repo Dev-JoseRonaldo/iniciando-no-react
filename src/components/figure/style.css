@@ -1,0 +1,16 @@
+.figure-full {
+  border: 1px solid rgb(55, 55, 55);
+  background-color: rgb(211, 211, 211);
+  width: 50%;
+}
+
+.contato-img {
+  width: 100%;
+}
+
+.description-img {
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(55, 55, 55);
+  text-align: center;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 import { useState } from 'react';
 import { Header } from "../../components/Header"; 
-import { Figure } from "../../components/Figure";
+import { Figure } from "../../components/figure/Figure";
 import { Contador } from "../../components/Contador"; 
 import { Input } from "../../components/Input"; 
 import { Link } from '../../components/Link';

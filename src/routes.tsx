@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import Home from "./view/Home";
 import Contato from "./view/Contato";
-import Applist from "./view/appList/Applist";
-import Condicionais from "./view/condicionais/Condicionais";
+import Applist from "./view/appList";
+import Condicionais from "./view/condicionais";
 import Err from "./view/err";
 
 
