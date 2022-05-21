@@ -6,6 +6,6 @@ import Condicionais from './view/condicionais/Condicionais'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Condicionais />
+    <App />
   </React.StrictMode>
 )
