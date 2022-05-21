@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { Button } from "./Button";
+import { Button } from "../Button";
+
+import styles from '../../components/Contador/styles.module.css';
 
 export const Contador = () => {
   const [numero, setNumero] = useState(0);
@@ -13,10 +15,10 @@ export const Contador = () => {
   }
 
   return(
-    <>
-      <Button funcao={adicionar} text='+'/>
-      <h2>{numero}</h2>
+    <div className={styles.box}>
       <Button funcao={subtrair} text='-'/>
-    </>
+      <h2 className={styles.number}>{numero}</h2>
+      <Button funcao={adicionar} text='+'/>
+    </div>
   );
 }

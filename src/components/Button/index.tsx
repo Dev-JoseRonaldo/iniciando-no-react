@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './styles.module.css'
 
 type Props ={
   text:string;
@@ -7,6 +8,6 @@ type Props ={
 }
 export const Button = ({text,funcao}: Props) => {
   return(
-    <button onClick={funcao}>{text}</button>
+    <button className={styles.button} onClick={funcao}>{text}</button>
   );
 }

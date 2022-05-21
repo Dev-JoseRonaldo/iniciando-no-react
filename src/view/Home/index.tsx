@@ -2,10 +2,12 @@ import React from "react";
 
 import { useState } from 'react';
 import { Header } from "../../components/Header"; 
-import { Figure } from "../../components/figure/Figure";
+import { Figure } from "../../components/Figure/Figure";
 import { Contador } from "../../components/Contador"; 
 import { Input } from "../../components/Input"; 
 import { Link } from '../../components/Link';
+
+
 
 const Home: React.FC = () => {
 

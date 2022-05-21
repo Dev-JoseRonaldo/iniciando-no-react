@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from '../../components/Link';
-import { Figure } from "../../components/figure/Figure";
+import { Figure } from "../../components/Figure/Figure";
 
 const Contato: React.FC = () => {
 
