@@ -17,6 +17,7 @@ const Home: React.FC = () => {
       <Link url='http://localhost:3000/contato' texto='Contato'/>
       <Link url='http://localhost:3000/lista' texto='Listas'/>
       <Link url='http://localhost:3000/condicionais' texto='Condicionais'/>
+      <Link url='http://localhost:3000/useEffect' texto='UseEffect'/>
 
       <Header 
       nome="Bigodudo" 
