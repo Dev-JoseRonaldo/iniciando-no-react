@@ -7,6 +7,7 @@ import Contato from "./view/Contato";
 import Applist from "./view/appList";
 import Condicionais from "./view/condicionais";
 import Useffect from "./view/useffect";
+import Movie from "./view/movies";
 import Err from "./view/err";
 
 
@@ -21,6 +22,7 @@ const Router: React.FC = () => {
         <Route path="/lista" element={<Applist />}/>
         <Route path="/condicionais" element={<Condicionais />}/>
         <Route path="/useEffect" element={<Useffect />}/>
+        <Route path="/movies" element={<Movie />}/>
       </Routes>
     </BrowserRouter>
   );

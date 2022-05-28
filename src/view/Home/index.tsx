@@ -9,6 +9,7 @@ import { Link } from '../../components/Link';
 
 
 
+
 const Home: React.FC = () => {
 
   return (
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
       <Link url='http://localhost:3000/lista' texto='Listas'/>
       <Link url='http://localhost:3000/condicionais' texto='Condicionais'/>
       <Link url='http://localhost:3000/useEffect' texto='UseEffect'/>
+      <Link url='http://localhost:3000/movies' texto='Movies'/>
 
       <Header 
       nome="Bigodudo" 
